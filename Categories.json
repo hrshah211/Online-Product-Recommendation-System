@@ -3,90 +3,282 @@
       {
          "category":"Electronics",
          "sub_category":[
-            "Television",
-            "Mobile",
-            "Air Conditioner",
-            "Refrigerator",
-            "Laptop",
-            "Heater",
-            "Camera",
-            "Headphones",
-            "Projectors",
-            "Speakers",
-            "Printers",
-            "Desktops",
-            "Smart Watch"
+            {
+               "name":"Television",
+               "added":false
+            },
+            {
+               "name":"Mobile",
+               "added":false
+            },
+            {
+               "name":"Air Conditioner",
+               "added":false
+            },
+            {
+               "name":"Refrigerator",
+               "added":false
+            },
+            {
+               "name":"Laptop",
+               "added":false
+            },
+            {
+               "name":"Heater",
+               "added":false
+            },
+            {
+               "name":"Camera",
+               "added":false
+            },
+            {
+               "name":"Headphones",
+               "added":false
+            },
+            {
+               "name":"Projectors",
+               "added":false
+            },
+            {
+               "name":"Speakers",
+               "added":false
+            },
+            {
+               "name":"Printers",
+               "added":false
+            },
+            {
+               "name":"Desktops",
+               "added":false
+            },
+            {
+               "name":"Smart Watch",
+               "added":false
+            }
          ]
       },
       {
          "category":"Men's Clothing",
          "sub_category":[
-            "Men's Shirt",
-            "Men's T-shirt",
-            "Men's Pant",
-            "Men's Trousers",
-            "Men's Shoes",
-            "Men's Wallets",
-            "Men's Belts"
+            {
+               "name":"Men's Shirt",
+               "added":false
+            },
+            {
+               "name":"Men's T-shirt",
+               "added":false
+            },
+            {
+               "name":"Men's Pant",
+               "added":false
+            },
+            {
+               "name":"Men's Trousers",
+               "added":false
+            },
+            {
+               "name":"Men's Shoes",
+               "added":false
+            },
+            {
+               "name":"Men's Wallets",
+               "added":false
+            },
+            {
+               "name":"Men's Belts",
+               "added":false
+            }
          ]
       },
       {
          "category":"Women's Clothing",
          "sub_category":[
-            "Women's Shirt",
-            "Women's T-shirt",
-            "Women's Pant",
-            "Women's Trousers",
-            "Women's Shoes",
-            "Women's Belts",
-            "Women's Purse"
+            {
+               "name":"Women's Shirt",
+               "added":false
+            },
+            {
+               "name":"Women's T-shirt",
+               "added":false
+            },
+            {
+               "name":"Women's Pant",
+               "added":false
+            },
+            {
+               "name":"Women's Trousers",
+               "added":false
+            },
+            {
+               "name":"Women's Shoes",
+               "added":false
+            },
+            {
+               "name":"Women's Belts",
+               "added":false
+            },
+            {
+               "name":"Women's Purse",
+               "added":false
+            }
          ]
       },
       {
          "category":"Kid's Clothing",
          "sub_category":[
-            "Kid's Shirt",
-            "Kid's T-shirt",
-            "Kid's Pant",
-            "Kid's Trousers",
-            "Kid's Shoes",
-            "Kid's Belts"
+            {
+               "name":"Kid's Shirt",
+               "added":false
+            },
+            {
+               "name":"Kid's T-shirt",
+               "added":false
+            },
+            {
+               "name":"Kid's Pant",
+               "added":false
+            },
+            {
+               "name":"Kid's Trousers",
+               "added":false
+            },
+            {
+               "name":"Kid's Shoes",
+               "added":false
+            },
+            {
+               "name":"Kid's Belts",
+               "added":false
+            }
          ]
       },
       {
          "category":"Books",
          "sub_category":[
-            "Arts & Photography",
-            "Biographies & Memoirs",
-            "Business & Investing",
-            "Calendars",
-            "Children's Books",
-            "Christian Books & Bibles",
-            "Comics & Graphic Novels",
-            "Computers & Technology",
-            "Cookbooks, Food & Wine",
-            "Crafts, Hobbies & Home",
-            "Education & Reference",
-            "Erotica",
-            "Health, Fitness & Dieting",
-            "History",
-            "Humour & Entertainment",
-            "Law",
-            "Literature & Fiction",
-            "Medical Books",
-            "Mystery, Thriller & Suspense",
-            "Parenting & Relationships",
-            "Politics & Social Sciences",
-            "Professional & Technical",
-            "Religion & Spirituality",
-            "Romance",
-            "Science & Math",
-            "Science Fiction & Fantasy",
-            "Self-Help",
-            "Sports & Outdoors",
-            "Teen & Young Adult",
-            "Textbooks",
-            "Travel"
+            {
+               "name":"Arts & Photography",
+               "added":false
+            },
+            {
+               "name":"Biographies & Memoirs",
+               "added":false
+            },
+            {
+               "name":"Business & Investing",
+               "added":false
+            },
+            {
+               "name":"Calendars",
+               "added":false
+            },
+            {
+               "name":"Children's Books",
+               "added":false
+            },
+            {
+               "name":"Christian Books & Bibles",
+               "added":false
+            },
+            {
+               "name":"Comics & Graphic Novels",
+               "added":false
+            },
+            {
+               "name":"Computers & Technology",
+               "added":false
+            },
+            {
+               "name":"Cookbooks, Food & Wine",
+               "added":false
+            },
+            {
+               "name":"Crafts, Hobbies & Home",
+               "added":false
+            },
+            {
+               "name":"Education & Reference",
+               "added":false
+            },
+            {
+               "name":"Erotica",
+               "added":false
+            },
+            {
+               "name":"Health, Fitness & Dieting",
+               "added":false
+            },
+            {
+               "name":"History",
+               "added":false
+            },
+            {
+               "name":"Humour & Entertainment",
+               "added":false
+            },
+            {
+               "name":"Law",
+               "added":false
+            },
+            {
+               "name":"Literature & Fiction",
+               "added":false
+            },
+            {
+               "name":"Medical Books",
+               "added":false
+            },
+            {
+               "name":"Mystery, Thriller & Suspense",
+               "added":false
+            },
+            {
+               "name":"Parenting & Relationships",
+               "added":false
+            },
+            {
+               "name":"Politics & Social Sciences",
+               "added":false
+            },
+            {
+               "name":"Professional & Technical",
+               "added":false
+            },
+            {
+               "name":"Religion & Spirituality",
+               "added":false
+            },
+            {
+               "name":"Romance",
+               "added":false
+            },
+            {
+               "name":"Science & Math",
+               "added":false
+            },
+            {
+               "name":"Science Fiction & Fantasy",
+               "added":false
+            },
+            {
+               "name":"Self-Help",
+               "added":false
+            },
+            {
+               "name":"Sports & Outdoors",
+               "added":false
+            },
+            {
+               "name":"Teen & Young Adult",
+               "added":false
+            },
+            {
+               "name":"Textbooks",
+               "added":false
+            },
+            {
+               "name":"Travel",
+               "added":false
+            }
          ]
       }
    ]
