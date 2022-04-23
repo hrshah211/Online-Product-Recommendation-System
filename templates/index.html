@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Online Product Recommendation System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('#select_dropdown').on('change', function () {
+        $.ajax({
+          url: "/loadproducts",
+          data: $(this).find('option:selected').val(),
+          type: 'POST',
+          contentType: false,
+          error: function (err) {
+            console.log(err);
+          },
+          success: function (data) {
+            document.getElementById("products").innerHTML = data
+          }
+        });
+      });
+    });
+
+    function showdivone() {
+      document.getElementById("recommendationsone").style.display = "block";
+      document.getElementById("recommendationstwo").style.display = "none";
+      document.getElementById("recommendationsthree").style.display = "none";
+
+    }
+    function showdivtwo() {
+      document.getElementById("recommendationsone").style.display = "none";
+      document.getElementById("recommendationstwo").style.display = "block";
+      document.getElementById("recommendationsthree").style.display = "none";
+
+    }
+    function showdivthree() {
+      document.getElementById("recommendationsone").style.display = "none";
+      document.getElementById("recommendationstwo").style.display = "none";
+      document.getElementById("recommendationsthree").style.display = "block";
+
+    }
+
+
+
+  </script>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Categories</h2>
+    <form id="select_dropdown" method="post">
+      <div class="dropdown">
+        <SELECT name="categories" id="category_dropdown" method="GET" action="/">
+          {% for c in range(4) %}
+          <OPTION value={{ids[c]}}>{{categories[c]}}</option>
+          {% endfor %}
+        </SELECT>
+      </div>
+    </form>
+  </div>
+  <div id="products"></div>
+
+
+
+</body>
+
+</html>
